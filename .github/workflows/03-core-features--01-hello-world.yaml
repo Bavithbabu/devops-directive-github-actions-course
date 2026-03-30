@@ -5,6 +5,6 @@ on:
 
 jobs:
   Do-the-same_stuff-again:
-    runs-on: ubuntu-24-0.4
+    runs-on: ubuntu-latest
     steps:
       - run: echo "Hello worrld again from bavith"
