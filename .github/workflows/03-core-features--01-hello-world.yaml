@@ -1,10 +1,12 @@
-name: Hello world testing 2nd
+name: Wrokflow_2
 
 on:
-  workflow_dispatch:
+  workflow_dispatch
 
 jobs:
-  Do-the-same_stuff-again:
+  Testing_2:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Hello worrld again from bavith"
+      - run: echo "I am $NAME leader of DUKE"
+        env: 
+          NAME: BAVITH
