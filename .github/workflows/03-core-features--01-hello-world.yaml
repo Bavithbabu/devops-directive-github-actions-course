@@ -1,0 +1,10 @@
+name: Hello world testing 2nd
+
+on:
+  workflow_dispatch:
+
+jobs:
+  Do-the-same_stuff-again:
+    runs-on: ubuntu-24-0.4
+    steps:
+      - run: echo "Hello worrld again from bavith"
