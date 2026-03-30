@@ -7,5 +7,9 @@ jobs:
   say-hello-inline-bash:
     runs-on: ubuntu-24.04
     steps:
-      - run: echo "Hello from Pop_os! We are communicating with bavith's github"
+      - run: |
+          echo "Start"
+          pwd
+          ls -la
+          echo "End"
   
